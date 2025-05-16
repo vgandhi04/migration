@@ -8,12 +8,12 @@ import webbrowser
 import http.server
 import socketserver
 from urllib.parse import parse_qs, urlparse
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 import mimetypes
 import requests
 
 # Load environment variables
-load_dotenv()
+# load_dotenv()
 
 # API configurations
 ZOHO_API_BASE = "https://www.zohoapis.in/crm/v7"
